@@ -1,3 +1,4 @@
-import Alert from './alert'
+import Card from './card'
+// require('./card')(Card);
 
-new Alert();
+new Card();

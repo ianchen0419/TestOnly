@@ -3,5 +3,15 @@ module.exports = {
     entry: './src',
     output: {
         filename: 'bundle.js'
-    }
+    },
+    // module: {
+    //     rules: [
+    //         {
+    //             test: '/\.css/',
+    //             use: {
+    //                 loaders: ['style', 'css']
+    //             }
+    //         }
+    //     ]
+    // }
 }
